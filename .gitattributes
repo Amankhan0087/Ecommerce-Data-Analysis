@@ -1,0 +1,9 @@
+# Ensure notebooks and python counted as source
+*.ipynb linguist-detectable=true
+*.py linguist-detectable=true
+
+# Treat data and docs as non-source so they don't skew language stats
+*.csv linguist-vendored
+*.json linguist-vendored
+*.md linguist-documentation
+assets/* linguist-vendored
