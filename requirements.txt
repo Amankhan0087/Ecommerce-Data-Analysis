@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+pytrends
+google-api-python-client
+oauth2client
